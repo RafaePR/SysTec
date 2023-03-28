@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(74, 141, 127);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236, 236, 236);
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+div.logo {
+    display: flex;
+    padding: 10px;
+    margin-left: 70px;
+}
+
+div.logo img {
+    display: flex;
+    width: 250px;
+    height: 170px;
+}
+
+div.login {
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+div.login a {
+    font-size: 40px;
+    color: rgb(74, 141, 127);
+}
+
+div.login a:hover {
+    text-decoration: underline;
+}
+
+div.title {
+    display: flex;
+    padding: 30px;
+    font-size: 35px;
+    color: rgb(206, 206, 206);
+}
+
+div.text1 {
+    display: flex;
+    padding: 30px;
+    font-size: 30px;
+    color: rgb(218, 218, 218);
+}
+
+div.text2 {
+    padding: 30px;
+    font-size: 25px;
+    color: rgb(218, 218, 218);
+}

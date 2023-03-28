@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(74, 141, 127);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div.container {
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px black;
+}
+
+div.logo  {
+    display: flex;
+    padding: 40px;
+}
+
+div.logo img {
+    display: flex;
+    width: 260px;
+    height: 160px;
+}
+
+div.username {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+div.username label {
+    font-size: 22px;
+}
+
+div.username input {
+    font-size: 18px;
+}
+
+div.password {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+div.password label {
+    font-size: 22px;
+}
+
+div.password input {
+    font-size: 18px;
+}
+
+div.button {
+    display: flex;
+    padding: 20px;
+    margin-left: 85px;
+}
+
+div.button input {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+div.back a {
+    display: flex;
+    margin-bottom: 10px;
+    color: rgb(52, 76, 104);
+}
+
+div.back a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
